@@ -1,0 +1,170 @@
+span {
+  text-decoration: underline;
+}
+
+body {
+  color: #40514e;
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 80px auto 0 auto;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999e;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.75rem;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  color: #aad6d6;
+  margin-top: 25px;
+  width: 5%;
+}
+
+a {
+  color: #11999e;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #dcfcdf;
+  margin: 0;
+  padding-top: 5%;
+  position: relative;
+}
+
+.middle-container {
+  margin: 50px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 30px;
+  position: relative;
+}
+
+.bottom-cloud {
+  height: 5%;
+  left: 20%;
+  position: absolute;
+  top: 50%;
+  width: 13%;
+}
+
+.top-cloud {
+  height: 5%;
+  position: absolute;
+  right: 20%;
+  top: 5%;
+  width: 13%;
+}
+
+.mountain {
+  height: auto;
+  width: 75%;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.skill-icon-1 {
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.skill-icon-2 {
+  border-radius: 50%;
+  float: right;
+  width: 30%;
+}
+
+.profile-pic {
+  margin: 50px auto;
+  width: 25%;
+}
+
+.footer-link {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  color: #f0f0f0;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.75rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  background-color: #f0f0f0;
+  color: #425c6e;
+  text-decoration: none;
+}
+
+.btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  background: #66bfbf;
+  background-image: -webkit-gradient(top, #66bfbf, #498787);
+  background-image: -webkit-linear-gradient(top, #66bfbf, #498787);
+  background-image: -moz-linear-gradient(top, #66bfbf, #498787);
+  background-image: -o-linear-gradient(top, #66bfbf, #498787);
+  background-image: linear-gradient(to bottom, #66bfbf, #498787);
+  border-radius: 9px;
+  color: #ffffff;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.75rem;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #64c9c9;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #dddddd;
+  font-size: 0.75rem;
+}
+
+.intro {
+  margin: auto;
+  width: 40%;
+}
+
+.contact {
+  margin: 40px auto;
+  width: 40%;
+}
